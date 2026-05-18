@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-fraunces), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --color-canvas: #0A0A0B;
+  --color-ink: #EDEAE3;
+  --color-hairline: #26252A;
+  --color-mono: #8C8A85;
+  --color-mono-dim: #5A5957;
+  --color-accent: #C9A24A;
+}
