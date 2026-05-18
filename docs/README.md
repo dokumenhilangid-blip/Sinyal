@@ -9,14 +9,16 @@ This directory holds the source-of-truth design documents for SINYAL. Both docum
 | Document | Purpose | Audience |
 |---|---|---|
 | [PRD.md](./PRD.md) | Product Requirements — vision, emotional thesis, UX strategy, demo psychology, anti-goals, success metrics | Founders, designers, hackathon judges |
+| [VDS.md](./VDS.md) | Visual Direction System — visual philosophy, typography, motion, color, card system, anti-patterns, agent execution rules | Designers, frontend engineers, AI coding agents |
 | [SDD.md](./SDD.md) | System Design — frontend, backend, AI inference pipeline, Gemini orchestration, Cloud Run deployment, demo stability | Engineers, technical reviewers |
 
 ## Reading Order
 
 1. **PRD first** — to internalize the emotional contract and the product's reason to exist.
-2. **SDD second** — to understand how that contract is enforced through architecture.
+2. **VDS second** — to understand how the chamber is composed, the type breathes, and the anti-patterns are guarded.
+3. **SDD third** — to understand how the contract and the chamber are enforced through architecture.
 
-The SDD assumes the PRD's vocabulary (the entity, the reveal, the Wow Moment, the voice contract). Reading them in reverse will lose context.
+The VDS assumes the PRD's vocabulary (the entity, the reveal, the Wow Moment, the voice contract). The SDD assumes both. Reading them out of order will lose context.
 
 ## Stack at a Glance
 
@@ -29,6 +31,7 @@ The SDD assumes the PRD's vocabulary (the entity, the reveal, the Wow Moment, th
 ## Status
 
 - [x] PRD locked
+- [x] VDS locked
 - [x] SDD locked
 - [ ] Voice contract + exemplars (next phase, in Google AI Studio)
 - [ ] Client cinema scaffold
