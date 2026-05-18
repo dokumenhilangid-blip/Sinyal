@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "description": "Forbidden phrases that may not appear in any reveal card text. Used by both the system instruction tail and the server-side validator (lib/validators/voice.ts). Matched case-insensitively as substrings.",
+  "companion": "../docs/PRD.md §20, ../docs/VDS.md §14, ../docs/SDD.md §33",
+  "phrases": [
+    "you should",
+    "you must",
+    "you need to",
+    "you have to",
+    "remember to",
+    "try to",
+    "consider",
+    "perhaps",
+    "maybe",
+    "it seems like",
+    "it seems that",
+    "kind of",
+    "a little",
+    "self-care",
+    "you're not alone",
+    "you are not alone",
+    "it's okay",
+    "it is okay",
+    "be kind to yourself",
+    "take a break",
+    "you deserve",
+    "don't forget",
+    "do not forget",
+    "welcome",
+    "hello",
+    "hi there",
+    "goodbye",
+    "take care",
+    "be well",
+    "stay strong",
+    "you got this",
+    "you've got this",
+    "hang in there"
+  ],
+  "rules": {
+    "match": "case-insensitive substring",
+    "skip_in_quotes": false,
+    "applies_to": [
+      "reveal.cards[].text"
+    ]
+  }
+}
